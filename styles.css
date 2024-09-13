@@ -14,3 +14,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
+.principal{
+    background-image: url("img/Background.png");
+}
