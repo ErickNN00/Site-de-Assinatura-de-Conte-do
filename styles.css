@@ -1,34 +1,41 @@
-:root{
+:root {
     --principal-branco: #ffffff;
     --secundario-cinza: #b8b8b8;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
 }
 
-body{
+body {
     background: var(--cor-de-fundo);
     color: var(--principal-branco);
 }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-.principal{
+.principal {
     background-image: url("Background.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.container{
+.container {
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
-.container__botao{
+.container__botao {
     background: var(--botao-azul);
     border-radius: 5px;
     padding: 1em;
     color: var(--principal-branco);
     display: block;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: solid 2px var(--principal-branco);
 }
