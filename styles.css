@@ -2,7 +2,7 @@
     --principal-branco: #ffffff;
     --secundario-cinza: #b8b8b8;
     --botao-azul: #167BF7;
-    --cor-de-fundo: #00030C;
+    --cor-de-fundo: #00030c;
     --fonte-principal: 'inter';
 }
 
@@ -66,6 +66,22 @@ body{
     border: solid 2px var(--principal-branco);
 }
 
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
 .secundario__imagem{
     width: 80%;
+}
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--principal-branco);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto{
+    color: var(--secundario-cinza);
 }
