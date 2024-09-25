@@ -65,3 +65,7 @@ body{
     background-color: transparent;
     border: solid 2px var(--principal-branco);
 }
+
+.secundario__imagem{
+    width: 80%;
+}
