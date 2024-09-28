@@ -51,6 +51,12 @@ body {
   border: 2px solid var(--botao-verde);
 }
 
+.container__botao:active {
+  background: var(--principal-branco);
+  color: var(--botao-azul);
+  border: 2px solid transparent;
+}
+
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--principal-branco);
@@ -60,6 +66,12 @@ body {
   background-color: transparent;
   border: 2px solid var(--botao-azul);
   color: var(--botao-verde);
+}
+
+.botao_secundario:active {
+  background: var(--principal-branco);
+  color: var(--botao-verde);
+  border: 2px solid transparent;
 }
 
 .container__aviso {
@@ -141,6 +153,14 @@ body {
   text-decoration: none;
   color: var(--principal-branco);
   margin-left: 1em;
+}
+
+.lista__link a:hover {
+  color: var(--botao-verde);
+}
+
+.lista__link a:active {
+  color: var(--botao-azul);
 }
 
 .rodape__texto {
