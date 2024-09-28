@@ -63,12 +63,12 @@ body {
 
 .botao_secundario {
     background-color: transparent;
-    border: solid 2px var(--principal-branco);
+    border: 2px solid var(--principal-branco);
 }
 
 .secundario {
     align-items: center;
-    margin: 0 -10em;
+    margin: 0 10em;
 }
 
 .secundario__imagem {
