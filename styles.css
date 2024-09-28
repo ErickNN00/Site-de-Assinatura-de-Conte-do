@@ -1,7 +1,8 @@
 :root {
     --principal-branco: #ffffff;
     --secundario-cinza: #b8b8b8;
-    --botao-azul: #167BF7;
+    --botao-verde: #2ac37e;
+    --botao-azul: #004cb1;
     --cor-de-fundo: #00030c;
     --fonte-principal: 'inter';
 }
@@ -34,13 +35,31 @@ body {
 }
 
 .container__botao {
-    background: var(--botao-azul);
+    background: var(--botao-verde);
     border-radius: 5px;
     padding: 1em;
     color: var(--principal-branco);
     display: block;
     text-decoration: none;
     margin-bottom: 1em;
+    border: 2px solid transparent;
+}
+
+.container__botao:hover {
+  background: var(--botao-azul);
+  color: var(--principal-branco);
+  border: 2px solid var(--botao-verde);
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--principal-branco);
+}
+
+.botao_secundario:hover {
+  background-color: transparent;
+  border: 2px solid var(--botao-azul);
+  color: var(--botao-verde);
 }
 
 .container__aviso {
@@ -59,11 +78,6 @@ body {
 
 .container__caixa {
     margin: 0 6em;
-}
-
-.botao_secundario {
-    background-color: transparent;
-    border: 2px solid var(--principal-branco);
 }
 
 .secundario {
