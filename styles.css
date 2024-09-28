@@ -40,7 +40,7 @@ body {
     color: var(--principal-branco);
     display: block;
     text-decoration: none;
-    margin-bottom: none;
+    margin-bottom: 1em;
 }
 
 .container__aviso {
