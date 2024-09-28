@@ -1,7 +1,7 @@
 :root {
     --principal-branco: #ffffff;
     --secundario-cinza: #b8b8b8;
-    --botao-verde: #2ac37e;
+    --botao-ciano: #2bfdbe;
     --botao-azul: #004cb1;
     --cor-de-fundo: #00030c;
     --fonte-principal: 'inter';
@@ -35,10 +35,10 @@ body {
 }
 
 .container__botao {
-    background: var(--botao-verde);
+    background: var(--botao-ciano);
     border-radius: 5px;
     padding: 1em;
-    color: var(--principal-branco);
+    color: var(--cor-de-fundo);
     display: block;
     text-decoration: none;
     margin-bottom: 1em;
@@ -48,7 +48,7 @@ body {
 .container__botao:hover {
   background: var(--botao-azul);
   color: var(--principal-branco);
-  border: 2px solid var(--botao-verde);
+  border: 2px solid var(--botao-ciano);
 }
 
 .container__botao:active {
@@ -58,19 +58,20 @@ body {
 }
 
 .botao_secundario {
-    background-color: transparent;
-    border: 2px solid var(--principal-branco);
+  background-color: transparent;
+  border: 2px solid var(--principal-branco);
+  color: var(--principal-branco)
 }
 
 .botao_secundario:hover {
   background-color: transparent;
   border: 2px solid var(--botao-azul);
-  color: var(--botao-verde);
+  color: var(--botao-ciano);
 }
 
 .botao_secundario:active {
   background: var(--principal-branco);
-  color: var(--botao-verde);
+  color: var(--botao-ciano);
   border: 2px solid transparent;
 }
 
@@ -156,7 +157,7 @@ body {
 }
 
 .lista__link a:hover {
-  color: var(--botao-verde);
+  color: var(--botao-ciano);
 }
 
 .lista__link a:active {
